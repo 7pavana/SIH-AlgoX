@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "[PROJECT NAME] — Earlier signals, deeper understanding",
+  title: "MedQube — Earlier signals, deeper understanding",
   description: "A quantum-assisted early-disease screening platform prototype.",
 };
 
