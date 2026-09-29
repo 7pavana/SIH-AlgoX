@@ -3,7 +3,7 @@ export type Doctor = { id: string; name: string; specialization: string; email: 
 export type Patient = { id: string; name: string; age: number; sex: "Female" | "Male"; bloodGroup: string; notes: string; lastScreening: string; result: string; risk: RiskLevel };
 export type ScreeningSession = { id: string; patientId: string; doctorId: string; date: string; screening: string; result: string; confidence: number; risk: RiskLevel; inputType: "Clinical data" | "Clinical image"; model: string; inputs: { label: string; value: string }[] };
 
-export const currentDoctor: Doctor = { id: "DOC-1042", name: "Dr. Ananya Rao", specialization: "Cardiology", email: "ananya.rao@medqube.demo", organization: "MedQube Clinical Research Centre" };
+export const currentDoctor: Doctor = { id: "DOC-1042", name: "Dr. Ananya Rao", specialization: "Cardiology", email: "ananya.rao@MedQure.demo", organization: "MedQure Clinical Research Centre" };
 export const patients: Patient[] = [
   { id:"MQ-1024", name:"Arjun Rao", age:52, sex:"Male", bloodGroup:"B+", notes:"Synthetic demo record. Review cardiometabolic indicators at next visit.", lastScreening:"18 Sep 2026", result:"Elevated indicators", risk:"High" },
   { id:"MQ-1001", name:"Meera Shah", age:44, sex:"Female", bloodGroup:"O+", notes:"Synthetic demo record. Ongoing retinal screening follow-up.", lastScreening:"12 Sep 2026", result:"Lower indicator pattern", risk:"Low" },
