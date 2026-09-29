@@ -1,0 +1,13 @@
+# Dependencies and framework build output
+node_modules/
+.next/
+
+# Temporary presentation/build inspection artifacts
+.build_deck/
+.build_inspect/
+.build-presentation-update/
+.codex-build/
+.codex-finalizer/
+
+# TypeScript incremental build state
+*.tsbuildinfo
